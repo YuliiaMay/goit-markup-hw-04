@@ -418,6 +418,12 @@ body {
   height: 44px;
 }
 
+.social-link:hover .social-icon,
+.social-link:focus .social-icon,
+.social-link:active .social-icon {
+  fill: var(--light-text-color);
+}
+
 /* clients-section */
 .clients-section {
   padding-top: 94px;
